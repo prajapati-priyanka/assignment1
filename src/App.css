@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+img {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #c00;
+  --dark-primary-color: #a30000;
+  --hashtag-color: #065fd4;
+}
