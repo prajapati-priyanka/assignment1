@@ -1,0 +1,95 @@
+.nav-wrapper {
+  background-color: var(--white-color);
+  padding: 1rem 4rem;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.nav-wrapper .nav-left {
+  gap: 2rem;
+}
+
+.nav-wrapper .nav-left .menu-bar {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav-left .btn-search {
+    position: relative;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    left: 0;
+    z-index: 2;
+  }
+
+  .nav-left .input-search {
+    padding: 1rem;
+    padding-left: 3.5rem;
+    border: 0;
+    margin: 0;
+    position: absolute;
+  }
+
+.nav-right {
+  gap: 1.5rem;
+  cursor: pointer;
+}
+.nav-right .notify-btn{
+    font-size: 1.6rem;
+}
+.image-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.avatar {
+  margin: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar-xs-size {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.avatar-container {
+  position: relative;
+}
+
+.avatar-presence {
+  border: 1px solid #fff;
+  background-color: #bcc3ce;
+  padding: 0.25rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.7rem;
+  right: 0.45rem;
+}
+
+.avatar-presence.online {
+  background-color: #bcc3ce;
+}
+
+.badge-count {
+  position: absolute;
+  border: 1px solid #fff;
+  background-color: red;
+  color: #fff;
+  padding: 0 0.4rem;
+  border-radius: 5rem;
+  top: 0;
+  left: 2rem;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
